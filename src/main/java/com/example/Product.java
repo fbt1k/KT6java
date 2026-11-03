@@ -2,10 +2,10 @@ package com.example;
 
 
 public class Product {
-   private String name;
-   private double price;
-   private String description;
-   private double rating;
+   private final String name;
+   private final double price;
+   private final String description;
+   private final double rating;
     
    public Product(String name, double price, String description, double rating) {
         this.name = name;
